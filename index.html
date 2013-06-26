@@ -9,10 +9,16 @@ section: blog
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
     {% if date != ndate %}
-      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
+      <h4 class='month subheader'>{{item.date | date: '%B %Y'}}</h4>
+      <hr />
     {% endif %}
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+    <h6><a class='item' href='{{item.url}}'>{{item.title}} <span class='date subheader'>&#126; {{item.date | date:"%b %d"}}</span></a></h6>
+    <hr />
   {% endfor %}
 </div>
 
+<br /><br />
+
 {% include rss-link.html %}
+
+<br /><br />
