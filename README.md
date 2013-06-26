@@ -6,5 +6,6 @@ To get started, [install Jekyll](http://jekyllrb.com/docs/installation)
 
 
 * Jekyll by [Tom Preston-Werner](http://tom.preston-werner.com/).
+* Foundation by [ZURB](http://zurb.com).
 * Starter by [Development Seed](http://developmentseed.com).
 * Starter Foundation by [Adam Fairhead](http://fairheadcreative.com).
